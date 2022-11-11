@@ -20,7 +20,7 @@ st.config(bg='Grey')
 r_button=Button(st,text='Restart',font=('Time New Roman', 15,'bold'),relief=RAISED,cursor='plus',command=restart)
 r_button.place(x=30,y=20,height=40,width=200)
 
-rt_button=Button(st,text='Restart_time',font=('Time New Roman', 10,'bold'),relief=RAISED,cursor='plus',command=restart_time)
+rt_button=Button(st,text='Restart_time',font=('Time New Roman', 15,'bold'),relief=RAISED,cursor='plus',command=restart_time)
 rt_button.place(x=30,y=80,height=40,width=200)
 
 st_button=Button(st,text='Shutdown',font=('Time New Roman', 15,'bold'),relief=RAISED,cursor='plus',command=shutdown)
